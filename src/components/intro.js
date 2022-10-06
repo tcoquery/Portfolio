@@ -1,4 +1,4 @@
-import background from "../img/background.jpg";
+import background from "../img/background.webp";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
 
