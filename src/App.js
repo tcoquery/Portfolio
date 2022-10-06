@@ -1,6 +1,7 @@
 import Intro from "./components/intro"
 import WorkIntro from "./components/workIntro";
 import Works from "./components/works";
+import About from "./components/about";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -18,6 +19,8 @@ function App() {
           <FontAwesomeIcon icon={faGithub} />
           </p>
         </div>
+        <hr class="my-8 h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        <About />
         <hr class="my-8 h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
         <Contact />
       </div>

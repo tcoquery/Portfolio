@@ -5,12 +5,12 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function Contact() {
     return (
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center" id="contact">
             <p class="text-3xl">Contact me</p>
-            <div class="flex items-center justify-around text-2xl mt-6 w-80">
+            <div class="flex items-center justify-around text-2xl mt-6 w-1/3">
                 <div>
                     <FontAwesomeIcon icon={faEnvelope} />
-                    <a href="mailto:tcoquery@gmail.com" class="ml-2 hover:text-blue-700">Email</a>
+                    <a href="mailto:tcoquery@gmail.com" class="ml-2 hover:text-blue-700">tcoquery@gmail.com</a>
                 </div>
                 <div>
                     <FontAwesomeIcon icon={faLinkedin} />
