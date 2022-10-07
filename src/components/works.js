@@ -14,7 +14,7 @@ import cv from "../img/cv.webp"
 
 function Works () {
     return (
-        <div class="grid grid-cols-[1fr_2px_1fr] grid-rows-8 mt-14 gap-x-6">         
+        <div class=" flex flex-col justify-center items-center md:grid md:grid-cols-[1fr_2px_1fr] grid-rows-8 mt-14 gap-x-6">         
             <DescriptionLeft title="Where's Waldo" text="This was my final React project. The goal was to combine what I learned by using a React frontend and a Ruby on Rails backend working as an API. When the player clicks on the image, it checks the coordinates against the database to determine whether the player found a character. When the player finds all characters, he can enter his name which is stored in the backend." tags="Ruby on Rails, React, API" link="https://tcoquery.github.io/REACT-Where-s-Waldo/"/>
             <Border />
             <ImageRight imgSrc={waldo} height="320" width="620" alt="Where's Waldo React project screenshot"/>

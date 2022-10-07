@@ -2,7 +2,7 @@ function About() {
     return (
         <div class="flex flex-col items-center" id="about">
             <p class="text-3xl">About me</p>
-            <div class="flex flex-col text-2xl mt-6 w-2/3">
+            <div class="flex flex-col text-2xl mt-6 px-4 md:w-2/3">
                 <p>
                     After law studies and a number of experiences working in legal departments, I decided that I wanted to try something new. 
                 </p>
