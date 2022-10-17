@@ -2,8 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "mplus";
-  src: url("./fonts/mplus.ttf");
-  font-display: swap;
-};
