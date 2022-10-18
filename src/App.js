@@ -15,7 +15,7 @@ function App() {
         <WorkIntro />
         <Works />
         <div class="flex w-full justify-center mt-14 text-2xl">
-          <p class="text-center">You can find more of my projects on my <a href="https://github.com/tcoquery" class="font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2">GitHub</a>
+          <p class="text-center">You can find more projects on my <a href="https://github.com/tcoquery" class="font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2">GitHub</a>
           <FontAwesomeIcon icon={faGithub} />
           </p>
         </div>
